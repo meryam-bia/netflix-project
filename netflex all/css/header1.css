@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    background-image: url("../images/background.jpg");
+    min-height: 650px ;
+    
+
+}
+
+.overlay{
+    width: 100%;
+    min-height: 650px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+}
+.boxshadow{
+    box-shadow: inset 150px 90px 50px black ,inset -150px -90px 50px black ;
+    opacity: 0.9;
+    
+}
+.topoverlay{
+    width: 60%;
+    margin-left: 40%;
+    z-index: 2;
+}
+
+.topoverlay img{
+    position: relative;
+    z-index: 3;
+    width: 250px;
+    top: 10px;
+}
+.topoverlay input{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    z-index: 3;
+    float: right;
+    top: 25px;
+    right: 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.titleheader{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    z-index: 4;
+    text-align: center;
+    top: 100px;
+}
+.titleheader h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    padding: 10px;
+}
+.titleheader h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 10px;
+}
+.titleheader input{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 2px;
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+}
+.titletable h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.twoinone{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-flex;
+}
+.title1{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    margin-top:85px;
+}
+.title1 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0px;
+}
+.title1 input{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    font-size: 14px;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.imgslide{
+    display: inline-block;
+    width: 50%;
+}

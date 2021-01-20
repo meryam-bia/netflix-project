@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+}
+.topcontainertej{
+    display: grid;
+    grid-template-columns: auto auto auto 0px;
+    grid-gap: 0px;
+    background-color: gray;
+    width: 100%;
+}
+
+.icone{
+    
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    transition-duration: 0,3s;
+}
+.icone h6{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icone:hover{
+    border-bottom: 5px solid red;
+}
+.icone a{
+    color: black;  
+}
+.icone i{
+    padding: 0px;
+}
+
+.slides {
+    box-sizing: border-box;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    color: white;
+}
+.titletable{
+    font-family: arial, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+.titletable input{
+    font-family: arial, sans-serif;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px;
+    cursor: pointer;
+
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+    border: none;
+    font-size: 12px;
+  }
+  
+  td, th {
+    font-family: arial, sans-serif;
+    text-align: center;
+    padding: 5px ;
+  }
+  .left{
+    width: 50%;
+      text-align: left;
+  }
+  tr:nth-child(even) {
+    background-color: gray;
+  }
