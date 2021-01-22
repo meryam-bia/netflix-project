@@ -60,6 +60,7 @@ button a {
 }
 .cookies{
     display: flex;
+    flex-direction: row;
     margin-top: 50px;
 }
 .cookies p{
@@ -68,8 +69,8 @@ button a {
     color: white;
 }
 .cookies .butw{
+
     background-color: red;
-    width: 27%;
     height: 40px;
     animation: mymove 1.5s ;
   color: white;
@@ -82,8 +83,8 @@ button a {
 }
 
 @keyframes mymove {
-  0%   {left: 0px; background: rgb(51, 34, 33); width: 100px;}
-  100% {left: 200px; background: red; width: 26%;}
+  from  {left: 0px; background: rgb(51, 34, 33); width: 0%;}
+  to {left: 200px; background: red; width: 27%;}
 }
 
 .imgnet{

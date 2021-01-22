@@ -1,0 +1,52 @@
+@media (max-width: 848px ){
+    /* main */
+   
+    .twoinone{
+        flex-direction: column;
+        align-items: center;
+        margin: 10% 0%;
+    }
+    .cookies{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cookies .butw{
+        animation: none;
+        margin: 10% 0%;
+        
+    }
+    .title1{
+        text-align: center;
+    }
+    .pw{
+        text-align: center;
+    }
+    .imgslide{
+        margin-top: 10%;
+    }
+    .imgnet .tab-3 {
+        margin: 5% 0%;
+    }
+    /* header */
+    .topoverlay img {
+        width: 40%;
+        margin-left: -50%;
+    }
+    .topoverlay input {
+        float: none;
+        font-size: 13px;
+        margin-left: 60%;
+    }
+    .titleheader h1 {
+        font-size: 40px;
+        
+    }
+    .titleheader h3{
+        font-size: 12px;
+    }
+    .titleheader input {
+        font-size: 10px;
+
+    }
+     
+}

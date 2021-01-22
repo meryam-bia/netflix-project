@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .foot1{
     width: fit-content
     
@@ -32,8 +36,13 @@
 }
 .foot2,.foot3,.foot4,.foot5{
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 100px;
+    margin-bottom: 30px;
       
+}
+.foot1{
+    margin-bottom: 30px;
+    margin-left: 100px ;
 }
 
 .foot6{
@@ -49,13 +58,10 @@ footer li{
 }
 footer{
     background-color: black;
+    
    
 }
-.foot1{
-    position: relative;
-    left: 67px;
-    
-}
+
 .langue{
     margin-left: 50% 0;
 }
@@ -65,8 +71,9 @@ text-decoration: none;
  
 
 }
-.foot1 li,.foot1 li a {
+.foot1 ,.foot1 a {
 
     transform: translateY(23px);
     text-decoration:none ;
 }
+

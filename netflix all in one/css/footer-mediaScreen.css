@@ -1,0 +1,40 @@
+@media screen and (max-width:768px){
+    .foot1 {
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        
+         
+    }
+    .foot4,.foot5,.foot2,.foot3{
+        width:40%;
+        margin-left: 9%;
+    }
+    footer li {
+        padding: 1px 0;
+    }
+    .foot5{
+        padding-top: 30px;
+    }
+
+}
+@media screen and  (max-width:560px){
+    .foot1{
+        text-align: center;
+    }
+    
+    .foot4,.foot5,.foot2,.foot3{
+        display: block;
+        width:50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .allfoot{
+        margin-top: 15%;
+    }
+    .foot4 ul li ,.foot5 ul li ,.foot2 ul li ,.foot3 ul li {
+       text-align: center;
+    }
+}
+
